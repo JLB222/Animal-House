@@ -1,29 +1,49 @@
-## Modern Website for a Local Dog Grooming Business
+# Animal House — Dog Grooming Website
 
-A clean, conversion-focused website designed to help a local pet grooming business attract and book more clients.
+A modern, responsive website designed for a local dog grooming business to attract new customers and drive appointment bookings.
 
-### The Problem
+## Live Demo
 
-Many small businesses rely on outdated or cluttered websites that fail to build trust or convert visitors into customers. A lack of clear structure, modern design, and strong calls to action often results in missed opportunities.
+[https://your-netlify-link.netlify.app
+](https://animalhousegrooming.netlify.app/)
 
-### The Solution
+## Overview
 
-I designed and developed a modern, responsive landing page that prioritizes clarity, usability, and conversion. The layout guides visitors through services, builds trust with visual content, and encourages booking with a clear call-to-action.
+This project showcases a clean, conversion-focused landing page tailored for a small service-based business. The goal was to create a professional online presence that builds trust, highlights services, and encourages users to take action.
 
-### Key Features
+## Features
 
-* Fully responsive design for mobile and desktop
-* Sticky navigation for improved user experience
-* Strong hero section with clear call-to-action
-* Image gallery to showcase services
+* Responsive design for mobile and desktop
+* Sticky navigation for improved usability
+* Hero section with clear call-to-action
+* Image gallery showcasing services
 * Structured footer with contact info, location, and hours
-* Subtle hover and scroll effects for a polished feel
+* Subtle hover effects and scroll interactions
 
-### What I’d Deliver for a Real Client
+## Tech Stack
 
-This project is built as a scalable foundation. For a live business, I could extend it with:
+* HTML5
+* CSS3
+* JavaScript
 
-* Online appointment booking
-* Local SEO optimization
-* Content management system for easy updates
-* Google Maps and review integration
+## Project Goals
+
+* Create a small business website
+* Focus on clarity, usability, and visual hierarchy
+* Demonstrate clean, maintainable front-end code
+* Build a strong portfolio piece for client work
+
+## Future Improvements
+
+* Online booking system integration
+* CMS for easy content updates
+* SEO optimization for local search
+* Google Maps and reviews integration
+
+## About This Project
+
+This is a mock business website built to demonstrate how I approach real client work. The structure is designed to be easily scalable and adaptable for actual small businesses.
+
+---
+
+If you're a business owner looking for a clean, modern website, feel free to reach out!
