@@ -4,8 +4,7 @@ A modern, responsive website designed for a local dog grooming business to attra
 
 ## Live Demo
 
-[https://your-netlify-link.netlify.app
-](https://animalhousegrooming.netlify.app/)
+[https://animalhousegrooming.netlify.app](https://animalhousegrooming.netlify.app/)
 
 ## Overview
 
