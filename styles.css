@@ -1,0 +1,285 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: "Inter", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.7;
+  background: #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* NAVBAR */ 
+.navbar { 
+    position: sticky; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(0,0,0,0.05); 
+} 
+.nav-container { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 16px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav {
+  transition: box-shadow 0.3s ease;
+}
+nav.scrolled {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+ /* LOGO */ 
+ .logo { 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 600; 
+    font-size: 1.2rem; 
+    letter-spacing: -0.5px; 
+} 
+
+ /* LINKS */ 
+ .nav-links { 
+    display: flex; 
+    gap: 24px; 
+    align-items: center; 
+} 
+ .nav-links a { 
+    text-decoration: none; 
+    color: #333; 
+    font-size: 0.95rem; 
+    transition: color 0.2s ease; 
+} 
+ .nav-links a:hover { 
+    color: #4CAF50; 
+} 
+ 
+ /* CTA BUTTON */ 
+ .nav-cta { 
+    padding: 8px 14px; 
+    background: #4CAF50; 
+    color: white !important; 
+    border-radius: 6px; 
+    font-weight: 500; 
+} 
+ .nav-cta:hover { 
+    background: #45a049; 
+} 
+
+ /* MOBILE */ @media (max-width: 768px) { 
+    .nav-links { 
+        gap: 16px; 
+    } 
+}
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1517849845537-4d257902454a") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: -70px; 
+  padding-top: 70px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.subtle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ALT BACKGROUND */
+.alt {
+  background: #f7f7f7;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.services {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.testimonials {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.gallery {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* TESTIMONIAL TEXT */
+.testimonials .card {
+  font-style: italic;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 12px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* GALLERY */
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: inherit;
+}
+
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 60px 20px 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-col p {
+  margin: 6px 0;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.footer-col a {
+  color: inherit;
+}

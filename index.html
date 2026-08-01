@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Animal House | Pet Grooming</title>
+        <link rel="icon" href="images/pawprint.png">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <nav class="navbar"> 
+            <div class="nav-container"> 
+                <div class="logo">Animal House</div> 
+                <div class="nav-links"> <a href="#">Home</a> 
+                    <a href="#services">Services</a> 
+                    <a href="#contact" class="nav-cta">Book</a> 
+                </div> 
+            </div> 
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Professional Grooming for Pets You Love</h1>
+                <p>Gentle, trusted care for dogs and cats in your community.</p>
+                <a href="#contact" class="btn">Book Appointment</a>
+            </div>
+        </header>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="grid services">
+                    <div class="card">
+                        <h3>Bath & Brush</h3>
+                        <p>Gentle wash, blow dry, and brushing for a soft, clean coat.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Full Groom</h3>
+                        <p>Haircut, bath, nail trim, and ear cleaning included.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Nail Trim</h3>
+                        <p>Quick, safe trimming to keep your pet comfortable.</p>
+                    </div>
+                     <div class="card">
+                        <h3>Specialty Cuts</h3>
+                        <p>Custom styles tailored to your pet’s breed and personality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section alt">
+            <div class="container">
+                <h2>Happy Customers</h2>
+                <h4>What they say about us.</h4>
+                <div class="grid testimonials">
+                    <div class="card">
+                        <p>"They treat my dog like family. He always comes back happy!"</p>
+                        <span>- Sarah M.</span>
+                    </div>  
+                    <div class="card">
+                        <p>"Best grooming service in town. I highly recommend."</p>
+                        <span>- James R.</span>
+                    </div>
+                    <div class="card">
+                        <p>"Professional, clean, and super friendly staff."</p>
+                        <span>- Emily T.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Our Work</h2>
+                <div class="grid gallery">  <!-- Optional Upgrade:  Image Carousel that pulls images dynamically from images folder -->
+                    <img src="images/dog-1.jpg" alt="dog getting nails trimmed">
+                    <img src="images/dog-2.jpg" alt="fluffy white dog after grooming appointment">
+                    <img src="images/dog-3.jpg" alt="small dog after appointment">
+                    <img src="images/cat-1.jpg" alt="cat laying down being brushed">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-col">
+                    <h3>Animal House</h3>
+                    <p>Professional dog grooming with love and care. Keeping your pets happy, clean, and looking their best.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>📞 <a href="tel:5551234567">(555) 123-4567</a></p>
+                    <p>📧 <a href="mailto:hello@animalhouse.com">hello@animalhouse.com</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <p>123 Paw Street</p>
+                    <p>Clarksville, TN</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 9am – 6pm</p>
+                    <p>Sat: 10am – 4pm</p>
+                    <p>Sun: Closed</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Animal House. All rights reserved.</p>
+                <p>Dog photos courtesy of <a href="https://pixabay.com/users/alektas-19398239/">Alektas</a></p>
+                <p>Pawprint icon by Vector Stall - <a href="https://www.flaticon.com/free-icons/pawprint" title="pawprint icons">Flaticon</a></p>
+            </div>
+        </footer>
+
+    
+        <script>
+            const nav = document.querySelector("nav");
+
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 10) {
+                nav.classList.add("scrolled");
+                } else {
+                nav.classList.remove("scrolled");
+                }
+            });
+        </script>
+    </body>
+</html>
